@@ -2,6 +2,9 @@
 	{
 		"name": "Family-Overseer",
 		"badges": ["MERN", "MongoDb", "Fullstack"],
-		"text": "Description goes here"
+		"text": "Description goes here",
+		"image": "img/backend.png",
+		"siteUrl": "https://www.google.com",
+		"sourceUrl": "www.youtube.com"
 	}
 ]
