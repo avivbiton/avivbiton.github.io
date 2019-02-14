@@ -1,29 +1,32 @@
 $(document).ready(function () {
 	let projectsHtml = "";
+	projectsHtml += '<div class="row pb-4">';
 	$.getJSON("../projectsData.json", function (data, textStatus, jqXHR) {
 		$.each(data, function (index, project) {
-			projectsHtml += parseHtmlForProject(project);
+			projectsHtml += parseHtmlRow(project);
 		});
 
+		projectsHtml += `</div>`
 		$("#projectsList").html(projectsHtml);
 	});
 });
 
 
-function parseHtmlForProject(project) {
+function parseHtmlRow(project, color) {
 	let badges = "";
 	project.badges.forEach(b => {
 		badges += `<span class="badge badge-info ml-1">${b}</span>`;
 	});
 	return `			
-	<div class="row pb-4">
-		<div class="col">
-			<div class="card">
-				<h4 class="card-header text-center bg-info text-white">
+	
+		<div class="col-md-6">
+			<div class="card mb-4">
+				<h4 class="card-header text-center bg-gray text-white">
 				${project.name}
 				</h4>
 				<div class="card-body row">
-					<div class="col-md-8">
+					<div class="col">
+						<h5 class="card-title font-weight-bold">${project.header}</h5>
 						<div class="pb-2">
 						   ${badges}
 						</div>
@@ -33,13 +36,9 @@ function parseHtmlForProject(project) {
 						 <a href="${project.siteUrl}" target="_blank" class="btn btn-primary btn-lg btn-block">View Site</a>
 						<a href="${project.sourceUrl}" target="_blank" class="btn btn-info btn-lg btn-block">Source Code</a>
 					</div>
-					<div class="col-md-4 d-none d-md-block">
-						<img src="img/backend.png" class="img-fluid">
-					</div>
 				</div>
 			</div>
-		</div>			
-	 </div>`;
+		</div>`;
 }
 
 /*

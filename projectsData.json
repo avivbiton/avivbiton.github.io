@@ -1,8 +1,39 @@
 [
 	{
-		"name": "Family-Overseer",
-		"badges": ["MERN", "MongoDb", "Fullstack"],
-		"text": "Description goes here",
+		"name": "Family Overseer",
+		"header": "Task Management Website",
+		"badges": [
+			"MERN",
+			"MongoDb",
+			"Fullstack"
+		],
+		"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur esse voluptate, labore porro possimus consequuntur culpa a? Totam nostrum quis debitis molestias ratione magnam eligendi alias aliquid, quidem harum hic voluptatibus minus voluptatem magni quaerat, itaque aperiam commodi cum facere.",
+		"image": "img/backend.png",
+		"siteUrl": "https://www.google.com",
+		"sourceUrl": "www.youtube.com"
+	},
+	{
+		"name": "Family Overseer",
+		"header": "Task Management Website",
+		"badges": [
+			"MERN",
+			"MongoDb",
+			"Fullstack"
+		],
+		"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur esse voluptate, labore porro possimus consequuntur culpa a? Totam nostrum quis debitis molestias ratione magnam eligendi alias aliquid, quidem harum hic voluptatibus minus voluptatem magni quaerat, itaque aperiam commodi cum facere.",
+		"image": "img/backend.png",
+		"siteUrl": "https://www.google.com",
+		"sourceUrl": "www.youtube.com"
+	},
+	{
+		"name": "Family Overseer",
+		"header": "Task Management Website",
+		"badges": [
+			"MERN",
+			"MongoDb",
+			"Fullstack"
+		],
+		"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur esse voluptate, labore porro possimus consequuntur culpa a? Totam nostrum quis debitis molestias ratione magnam eligendi alias aliquid, quidem harum hic voluptatibus minus voluptatem magni quaerat, itaque aperiam commodi cum facere.",
 		"image": "img/backend.png",
 		"siteUrl": "https://www.google.com",
 		"sourceUrl": "www.youtube.com"
