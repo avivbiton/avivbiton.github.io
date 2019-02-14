@@ -26,6 +26,17 @@ html {
 	}
 }
 
-.bg-orange{
-	background-color: $orange !important;
+.black-color {
+	color: black !important;
 }
+
+
+footer {
+	a:hover{
+		color: transparent;
+	}
+	.fab:hover, .fas:hover {
+		color: gray !important;
+	}
+}
+
