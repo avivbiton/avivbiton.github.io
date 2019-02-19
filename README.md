@@ -5,7 +5,7 @@ Currently, using placeholder text and links.
 
 # Technologies && Languages
 Bootstrap 4 for responsive design.  
-jQuery for reading the json file and displaying projects dynamically.
+jQuery for reading the json file and displaying projects dynamically.  
 Sass for custom boostrapping.
 
 # TODO
