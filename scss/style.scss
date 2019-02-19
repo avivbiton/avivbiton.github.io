@@ -1,6 +1,7 @@
 body,
 html {
 	font-family: "Montserrat", sans-serif;
+	background-color: white(22, 20, 20);
 }
 
 .nav-link {
@@ -37,11 +38,5 @@ footer {
 	}
 	.fab:hover, .fas:hover {
 		color: gray !important;
-	}
-}
-
-@media(min-width: 766px){
-	#skills{
-		margin-left: 15%;
 	}
 }
