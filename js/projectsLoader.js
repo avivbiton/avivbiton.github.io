@@ -33,7 +33,7 @@ function parseHtmlRow(project, color) {
 						<p class="card-text">
 							${project.text}
 						</p>
-						 <a href="${project.siteUrl}" target="_blank" class="btn btn-primary btn-lg btn-block">View Site</a>
+						 <a href="${project.siteUrl}" target="_blank" class="btn btn-darkPrimary btn-lg btn-block">View Site</a>
 						<a href="${project.sourceUrl}" target="_blank" class="btn btn-info btn-lg btn-block">Source Code</a>
 					</div>
 				</div>
