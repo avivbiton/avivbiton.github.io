@@ -7,35 +7,33 @@
 			"MongoDb",
 			"Fullstack"
 		],
-		"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur esse voluptate, labore porro possimus consequuntur culpa a? Totam nostrum quis debitis molestias ratione magnam eligendi alias aliquid, quidem harum hic voluptatibus minus voluptatem magni quaerat, itaque aperiam commodi cum facere.",
-		"image": "img/backend.png",
-		"siteUrl": "https://www.google.com",
-		"sourceUrl": "www.youtube.com"
+		"text": "Register and Login, create groups and invite your family members, maintain a list of tasks, allowing members to create, edit, complete and delete tasks as they desire.",
+		"siteUrl": "https://family-overseer.herokuapp.com/",
+		"sourceUrl": "https://github.com/avivbiton/FamilyOverseer"
 	},
 	{
-		"name": "Family Overseer",
-		"header": "Task Management Website",
+		"name": "Portfolio",
+		"header": "Personal Developer Portfolio",
 		"badges": [
-			"MERN",
-			"MongoDb",
-			"Fullstack"
+			"Frontend",
+			"Bootstrap",
+			"Responsive"
 		],
-		"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur esse voluptate, labore porro possimus consequuntur culpa a? Totam nostrum quis debitis molestias ratione magnam eligendi alias aliquid, quidem harum hic voluptatibus minus voluptatem magni quaerat, itaque aperiam commodi cum facere.",
-		"image": "img/backend.png",
-		"siteUrl": "https://www.google.com",
-		"sourceUrl": "www.youtube.com"
+		"text": "A static, single page, website to showcase my skills and projects. Using Bootstrap 4 for design, jQuery and clipboard.js",
+		"siteUrl": "#",
+		"sourceUrl": "https://github.com/avivbiton/avivbiton.github.io"
 	},
 	{
-		"name": "Family Overseer",
-		"header": "Task Management Website",
+		"name": "BlizzardApiReader",
+		"header": "Open Source .Net Core API Client",
 		"badges": [
-			"MERN",
-			"MongoDb",
-			"Fullstack"
+			"Open-Source",
+			".Net Core",
+			"C#",
+			"API Client"
 		],
-		"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur esse voluptate, labore porro possimus consequuntur culpa a? Totam nostrum quis debitis molestias ratione magnam eligendi alias aliquid, quidem harum hic voluptatibus minus voluptatem magni quaerat, itaque aperiam commodi cum facere.",
-		"image": "img/backend.png",
-		"siteUrl": "https://www.google.com",
-		"sourceUrl": "www.youtube.com"
+		"text": "An Open source github project. serve as an interface for Blizzard Public games API. OAuth implementation, Fluent API, and Dependency Injection to Improve TDD aspects.",
+		"siteUrl": "#",
+		"sourceUrl": "https://github.com/avivbiton/BlizzardApiReader"
 	}
 ]
