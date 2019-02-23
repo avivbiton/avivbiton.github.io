@@ -44,10 +44,16 @@ function parseHtmlRow(project, color) {
 					</div>	
 				</div>
 				<div class="card-footer">	
-					<button href="${project.siteUrl}" target="_blank"  
-					class="btn btn-darkPrimary btn-lg btn-block" 
-					${btnDisable}>View Site</button>
-					<button href="${project.sourceUrl}" target="_blank" class="btn btn-info btn-lg btn-block">Source Code</button>
+					<a href="${project.siteUrl}" target="_blank">
+						<button class="btn btn-darkPrimary btn-lg btn-block mb-2" ${btnDisable}>
+							View Site
+						</button>
+					</a>
+					<a href="${project.sourceUrl}" target="_blank">
+						<button class="btn btn-info btn-lg btn-block">
+							Source Code
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>`;
