@@ -1,14 +1,15 @@
 [
 	{
 		"name": "User Control Panel (LS-V)",
-		"header": "UCP for a multiplayer game",
+		"header": "Control panel for a multiplayer game.",
 		"badges": [
-			"MERN",
+			"React",
+			"NodeJs",
 			"MySql",
 			"Production-ready"
 		],
 		"text": "UCP that let's you, manage your characters for a GTA-V mutliplayer game. Register / Login, email confirmations , update information, view your account activity, and more. Contact me for source code.",
-		"siteUrl": "http://ucp.ls-v-.com",
+		"siteUrl": "ucp.ls-v-.com",
 		"sourceUrl": "#"
 	},
 	{
