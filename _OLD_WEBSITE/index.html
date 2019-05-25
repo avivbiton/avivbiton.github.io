@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Aviv Biton</title>
+	<meta name="description" content="Web Developer Portfolio" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body>
+	<!-- Navbar -->
+	<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#skills" class="nav-link">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a href="#projects" class="nav-link">Projects</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- About -->
+	<section id="about" class="text-white shadow-sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<h1 class="display-1">
+						Hello,
+					</h1>
+					<p class="lead">
+						I'm Aviv Biton, fullstack web developer.
+						<br>Thanks to the ever growing technologies of web development, I can keep growing as a
+						developer, learning and improving each day. Below you can find my skills and projects.
+					</p>
+					<a href="https://medium.com/@avivbiton01" target="_blank"><button class="btn btn-gray">Visit My
+							Blog</button></a>
+					<button class="btn btn-gray" data-toggle="modal" data-target="#contactModal">Email Me</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills -->
+	<section id="skills">
+		<div class="container bg-white py-5">
+			<div class="row justify-content-center">
+				<div class="col-lg-3 order-lg-2">
+					<h1 class='text-center display-4'>Frontend</h1>
+					<img class="img-fluid mb-3" src="img/react-logo.png" class="" alt="image" />
+				</div>
+				<div class="col-lg-6 order-1 align-self-center">
+					<p class="lead">
+						Developing and desgining mobile first, responsive frontend client.
+						Experience with popular and modern framework, packages and technologies, including, <span
+							class="font-weight-bold">React, Bootstrap, Redux, Sass, JSX</span> and more.
+
+					</p>
+				</div>
+			</div>
+			<hr class="d-block d-lg-none py-4">
+			<div class="row justify-content-center">
+				<div class="col-lg-3 order-1">
+					<h1 class='text-center display-4'>Backend</h1>
+					<img class="img-fluid mb-3" src="img/backend.png" class="" alt="image" />
+				</div>
+				<div class="col-lg-6 order-2 align-self-center">
+					<p class="lead">
+						Roboust full Web API backend developed with <span class="font-weight-bold">NodeJS and
+							ExpressJS</span>. Fast and secure <span class="font-weight-bold">JWT Tokens</span>
+						authentication. <span class="font-weight-bold">NoSQL</span> database covered by <span
+							class="font-weight-bold">MongoDb</span> and interfaced by <span
+							class="font-weight-bold">Mongoose</span> for more intuitive development.
+					</p>
+				</div>
+			</div>
+			<hr class="d-block d-lg-none py-4">
+			<div class="row justify-content-center">
+				<div class="col-lg-3 order-lg-2">
+					<h1 class='text-center display-4'>Tools</h1>
+					<img class="img-fluid mb-3" src="img/tools.png" class="" alt="image" />
+				</div>
+				<div class="col-lg-6 order-1 align-self-center">
+					<p class="lead">
+						Knowledge of modern development tools. Installing and managing <span
+							class="font-weight-bold">NPM packages</span>, compling, building
+						and bundling websites for deployment or development. Creating and maintaining a <span
+							class="font-weight-bold">git repository</span>. Usage of Linters to <span
+							class="font-weight-bold">analyze and improve code.</span> Delopyment to the <span
+							class="font-weight-bold">cloud</span> and handling custom domains.
+					</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</section>
+
+	<!-- Projects -->
+	<section id="projects">
+		<div class="container bg-white">
+			<h1 class="display-3 bg-info text-white text-center py-5">My Projects</h1>
+			<div id="projectsList">
+				<!-- Projects list loaded here by procjetLoader.js -->
+			</div>
+		</div>
+	</section>
+
+	<div class="py-5"></div>
+
+	<footer class="footer mt-auto py-3 bg-secondary fixed-bottom">
+		<div class="container-fluid d-flex">
+			<span class="text-muted mr-2 align-self-center" style="color: #A8AFB3 !important">Contact me on</span>
+			<div class="mr-auto">
+				<button class="btn btn-link p-0 m-0" data-toggle="modal" data-target="#contactModal">
+					<span class="fa-stack fa-1x">
+						<i class="fas fa-square fa-stack-2x black-color"></i>
+						<i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+					</span>
+				</button>
+				<a href="https://github.com/avivbiton" target="_blank">
+					<span class="fa-stack fa-1x">
+						<i class="fas fa-square fa-stack-2x black-color"></i>
+						<i class="fab fa-github fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+				<a href="https://www.linkedin.com/in/aviv-biton-8746b5162/" target="_blank">
+					<span class="fa-stack fa-1x">
+						<i class="fas fa-square fa-stack-2x black-color"></i>
+						<i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+				<a href="https://medium.com/@avivbiton01" target="_blank">
+					<span class="fa-stack fa-1x">
+						<i class="fas fa-square fa-stack-2x black-color"></i>
+						<i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			</div>
+			<small class="align-self-end text-white d-none d-lg-block">
+				Copyright &copy; Aviv Biton
+			</small>
+		</div>
+	</footer>
+
+
+	<!-- email modal -->
+	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Contact Info</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					My Email Address:
+					<div class="d-flex justify-content-between">
+						<span id="modalEmail" class="font-weight-bold lead">avivbiton01@gmail.com</span>
+						<button id="modalCopyBtn" class="btn btn-gray btn-sm align-self-center"
+							data-clipboard-target="#modalEmail">Copy</button>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary btn-block" data-dismiss="modal">Okay</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--============== SCRIPTS  ================-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+		integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+		crossorigin="anonymous"></script>
+	<script src="js/clipboard.min.js"></script>
+	<script src="js/projectsLoader.js"></script>
+	<script>
+		// shows the current year (use ID "year")
+		$("#year").text(new Date().getFullYear());
+
+		// smooth scrolling on link click
+		$("#main-nav a").on("click", function (event) {
+			if (this.hash !== "") {
+				event.preventDefault();
+				const hash = this.hash;
+				$("html, body").animate(
+					{
+						scrollTop: $(hash).offset().top
+					},
+					700,
+					function () {
+						window.location.hash = hash;
+					}
+				);
+			}
+		});
+	</script>
+	<!--============== END SCRIPTS  ================-->
+</body>
+
+</html>
