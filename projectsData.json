@@ -18,7 +18,7 @@
 		"badges": [
 			"MERN",
 			"Firebase Auth",
-			"In-Development",
+			"In-Development"
 		],
 		"text": "Currently in development. Fullstack website with firebase authentication. Create, share, view and browse a large collection of randomizers!",
 		"siteUrl": "#",
