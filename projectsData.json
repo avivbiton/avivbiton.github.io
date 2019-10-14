@@ -17,11 +17,10 @@
 		"header": "Fullstack firebase website",
 		"badges": [
 			"MERN",
-			"Firebase Auth",
-			"In-Development"
+			"Firebase Auth"
 		],
-		"text": "Currently in development. Fullstack website with firebase authentication. Create, share, view and browse a large collection of randomizers!",
-		"siteUrl": "#",
+		"text": "Fullstack website with firebase authentication. Create, share, view and browse a large collection of randomizers!",
+		"siteUrl": "https://randome-site.herokuapp.com/",
 		"sourceUrl": "https://github.com/avivbiton/Randome"
 	},
 	{
