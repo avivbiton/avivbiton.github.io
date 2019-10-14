@@ -1,0 +1,32 @@
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3F8E97;
+    padding: 1.5rem 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+   display: inline;  
+   letter-spacing: 0.1rem;
+}
+
+
+.btn-primary {
+    background-color: #28747d;
+    border-color: #28747d;
+}
+
+.btn-primary:hover {
+    background-color: #0d535c;
+}
