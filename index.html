@@ -11,39 +11,54 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/override.css">
+	<link rel="stylesheet" type="text/css" href="css/shapes.css">
 </head>
 
-<body class="d-flex">
+<body>
 
-	<div id="landing">
-		<div class="mx-auto h-75 mt-auto container" style="z-index: 0">
-			<h1 class="text-info d-inline">Aviv Biton</h1>
-			<div class="pl-4">Fullstack Web Developer</div>
+	<!-- Landing -->
+	<section class="cover-screen" id="landing">
+		<div class="mx-auto h-75 my-lg-auto container" style="z-index: 0">
+			<p anim="fadeIn slow" class="lead mt-4 animated">Lorem, ipsum dolor sit <span class="highlight">amet</span>
+				consectetur <span class="highlight">adipisicing elit</span>. Sunt
+				laudantium veritatis fuga, accusamus <span class="highlight">voluptate</span> similique vitae corporis
+				assumenda non inventore
+				perspiciatis nostrum, nisi facilis harum! Odio obcaecati incidunt sunt voluptatibus!
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, eaque.
+			</p>
 
-			<p class="lead mt-4 animated fadeIn slow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-				laudantium veritatis fuga, accusamus voluptate similique vitae corporis assumenda non inventore
-				perspiciatis nostrum, nisi facilis harum! Odio obcaecati incidunt sunt voluptatibus!</p>
-
-			<div>
-				<button id="icon1" class="btn btn-icon animated bounceInUp">
-					<ion-icon name="logo-github"></ion-icon>
-				</button>
-				<button id="icon2" class="btn btn-icon animated bounceInUp delay-2s">
-					<ion-icon name="logo-github"></ion-icon>
-				</button>
-				<button id="icon3" class="btn btn-icon animated bounceInUp delay-3s">
-					<ion-icon name="logo-github"></ion-icon>
+			<div class="text-center">
+				<button class="btn btn-primary">
+					<a href="#skills">
+						Learn More
+						<ion-icon class="align-middle" name="arrow-round-down" />
+					</a>
 				</button>
 			</div>
 		</div>
-	</div>
+	</section>
+
+	<!-- Skills -->
+	<section id="skills" class="cover-screen container mt-4">
+		<div class="row">
+			<div class="col text-center">
+				<h1 anim="slideInLeft" class="animated">Skills</h1>
+			</div>
+		</div>
+	</section>
 
 
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
+
+
+
+
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
 		crossorigin="anonymous"></script>
@@ -51,6 +66,8 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<script src="javascript/SmoothScroll.js"></script>
+	<script src="javascript/scrollAnimations.js"></script>
 </body>
 
 </html>
