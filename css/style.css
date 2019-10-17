@@ -11,6 +11,7 @@ body {
     background-size: cover;
     color: white;
     display: flex;
+    
 }
 #landing:before {
     content: '';
@@ -57,4 +58,13 @@ a:focus {
     font-size: 4rem;
     color: white;
     margin: auto;
+}
+
+.badage {
+    margin-top: 2.5rem;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+
+
 }
