@@ -52,3 +52,9 @@ a:hover {
 a:focus {
     outline: inherit;           
 }
+
+#skills ion-icon {
+    font-size: 4rem;
+    color: white;
+    margin: auto;
+}

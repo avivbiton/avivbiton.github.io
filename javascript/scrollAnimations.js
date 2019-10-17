@@ -12,18 +12,16 @@ $(document).ready(function () {
     }
 
 
-    const animatedElements = $(".animated");
-    $(window).scroll(animate)
+    $(window).scroll(animate);
     animate();
+
     function animate() {
-        animatedElements.each(function (ele, index) {
+        $(".animated").each(function () {
             if (isScrolledIntoView(this) === true) {
                 const element = $(this);
                 const anim = element.attr("anim");
                 if (anim && element.hasClass(anim) === false) {
                     element.addClass(anim);
-                    animatedElements.splice(index, 1);
-
                 }
             }
 
