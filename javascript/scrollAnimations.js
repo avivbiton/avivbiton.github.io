@@ -13,15 +13,25 @@ $(document).ready(function () {
 
 
     $(window).scroll(animate);
+
+    $(".animated").each(function () {
+        const element = $(this);
+        if (element.hasClass("hide-anim") === false) {
+            element.addClass("hide-anim");
+        }
+    });
+
+
     animate();
 
     function animate() {
         $(".animated").each(function () {
+            const element = $(this);
             if (isScrolledIntoView(this) === true) {
-                const element = $(this);
                 const anim = element.attr("anim");
                 if (anim && element.hasClass(anim) === false) {
                     element.addClass(anim);
+                    element.removeClass("hide-anim");
                 }
             }
 
