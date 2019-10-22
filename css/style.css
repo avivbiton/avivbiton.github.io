@@ -77,3 +77,13 @@ a:focus {
     margin: auto;
     
 }
+
+
+
+.left-rounded {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.right-rounded {
+    border-radius: 0px 10px 10px 0px;
+}

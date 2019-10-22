@@ -1,4 +1,9 @@
 
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 .btn-primary {
     padding: 0.5rem 2rem;
     background-color: transparent;
@@ -19,4 +24,34 @@
     color: inherit !important;
     background-color: inherit !important;
     border-color: inherit !important;
+}
+
+.btn-info {
+    background-color: #4392F1;
+    color: white;
+    border-color: #4392F1;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.btn-info:hover {
+    border-color: rgb(5, 92, 199);
+    color: white;
+    background-color: rgb(5, 92, 199);
+}
+
+.btn-info:active {
+    color: inherit !important;
+    background-color: inherit !important;
+    border-color: inherit !important;
+}
+
+
+.card {
+    margin-top: 4rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
