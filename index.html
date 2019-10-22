@@ -236,7 +236,9 @@
 				</div>
 			</article>
 			<article class="col-12 col-md-4">
-				<div class="card shadow" onclick="onCardClick()">
+				<div class="card shadow" data-toggle="modal" data-target="#cardModal" data-name="Randome"
+					data-img="https://via.placeholder.com/300" data-description="lorem20" data-source_url="google.com"
+					data-website_url="google.com">
 					<img src="https://via.placeholder.com/300" alt="randomeimg" class="card-img-top">
 					<div class="card-body">
 						<h2 class="card-title">Randome</h2>
@@ -247,9 +249,13 @@
 								ullam esse!
 							</p>
 						</div>
-						<div class="pl-4">
-							<button class="btn btn-info left-rounded"><a href="">Source Code</a></button>
-							<button class="btn btn-info ml-n2 right-rounded"><a href="">View Website</a></button>
+						<div class="pl-4 h-z-index">
+							<button class="btn btn-info left-rounded h-z-index">
+								<a href="" target="_blank">Source Code</a>
+							</button>
+							<button class="btn btn-info ml-n2 right-rounded h-z-index">
+								<a href="" target="_blank">View Website</a>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -260,6 +266,46 @@
 	</section>
 
 
+
+
+
+	<div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-labelledby="cardModalTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-12 col-md-5">
+							<img src="https://via.placeholder.com/1200" alt="image" class="img-fluid">
+						</div>
+						<div class="d-flex flex-column col-12 col-md-7">
+							<div>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h1>Header</h1>
+							</div>
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id illo veniam necessitatibus.
+								Saepe cupiditate quas placeat eligendi consequuntur laborum corrupti omnis officia
+								molestias. Voluptatem harum minus autem officiis vero repellendus, repudiandae magnam
+								quasi similique fugiat? Deserunt quidem adipisci nulla a.
+							</p>
+							<div class="mt-auto mx-auto">
+								<button class="btn btn-info left-rounded btn-lg">
+									<a href="" target="_blank">Source Code</a>
+								</button>
+								<button class="btn btn-info ml-n2 right-rounded btn-lg">
+									<a href="" target="_blank">View Website</a>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 
 
 
