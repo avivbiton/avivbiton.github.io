@@ -1,15 +1,13 @@
+$.fn.isInViewport = function () {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+
 $(document).ready(function () {
-
-    function isScrolledIntoView(elem) {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
-
-        var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height();
-
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-
-    }
 
 
     $(window).scroll(animate);
@@ -27,7 +25,17 @@ $(document).ready(function () {
     function animate() {
         $(".animated").each(function () {
             const element = $(this);
-            if (isScrolledIntoView(this) === true) {
+            const animateOn = element.attr("animateOn");
+            if (animateOn) {
+                if ($(animateOn).isInViewport()) {
+                    addAnim();
+                }
+            }
+            else if (element.isInViewport() === true) {
+                addAnim();
+            }
+
+            function addAnim() {
                 const anim = element.attr("anim");
                 if (anim && element.hasClass(anim) === false) {
                     element.addClass(anim);
