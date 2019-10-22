@@ -12,3 +12,4 @@ $("#cardModal").on('show.bs.modal', function (event) {
     //modal.find('.modal-title').text(name);
     //modal.find('.modal-body').text(description);
 })
+

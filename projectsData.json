@@ -1,33 +1,24 @@
 [
+	
 	{
 		"name": "User Control Panel (LS-V)",
 		"header": "Control panel for a multiplayer game.",
-		"badges": [
-			"React",
+		"img": "https://via.placeholder.com/1200",
+		"stack": [
+			"<b>React</b>",
 			"NodeJs",
 			"MySql",
 			"Production-ready"
 		],
-		"text": "UCP that let's you, manage your characters for a GTA-V mutliplayer game. Register / Login, email confirmations , update information, view your account activity, and more. Contact me for source code.",
+		"text": "Manage your characters for a GTA-V mutliplayer game. Register / Login, email confirmations , update information, view your account activity, and more. Contact me for source code.",
 		"siteUrl": "http://ucp.ls-v.com",
 		"sourceUrl": "#"
 	},
 	{
-		"name": "Family Overseer",
-		"header": "Task Management Website",
-		"badges": [
-			"MERN",
-			"MongoDb",
-			"Fullstack"
-		],
-		"text": "Register and Login, create groups and invite your family members, maintain a list of tasks, allowing members to create, edit, complete and delete tasks as they desire.",
-		"siteUrl": "https://family-overseer.herokuapp.com/",
-		"sourceUrl": "https://github.com/avivbiton/FamilyOverseer"
-	},
-	{
 		"name": "Portfolio",
 		"header": "Personal Developer Portfolio",
-		"badges": [
+		"img": "https://via.placeholder.com/1200",
+		"stack": [
 			"Frontend",
 			"Bootstrap",
 			"Responsive"
@@ -39,7 +30,8 @@
 	{
 		"name": "BlizzardApiReader",
 		"header": "Open Source .Net Core API Client",
-		"badges": [
+		"img": "https://via.placeholder.com/1200",
+		"stack": [
 			"Open-Source",
 			".Net Core",
 			"C#",

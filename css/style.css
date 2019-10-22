@@ -88,6 +88,11 @@ a:focus {
     border-radius: 0px 10px 10px 0px;
 }
 
-.h-z-index {
-    z-index: 100;
+.card img {
+    cursor: pointer;
+}
+
+.large-text { 
+    font-size: 140%;
+    font-weight: 500;
 }
