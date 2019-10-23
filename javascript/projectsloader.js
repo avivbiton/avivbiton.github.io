@@ -22,7 +22,7 @@ function parseHTML(project, index) {
     const hasSource = project.sourceUrl == "#" ? "disabled" : "";
 
     return `
-			<article class="col-12 col-md-4 mt-4">
+			<article anim="fadeInRight" animateOn="#projects" style="animation-delay: ${1 + (0.2 * index)}s;" class="col-12 col-md-4 mt-4 animated">
 				<div class="card shadow h-100 mt-5">
 					<img src="${project.img}" alt="${project.name}" class="card-img-top" onclick="onCardClick(${index})">
 					<div class="card-body d-flex flex-column">
@@ -61,7 +61,7 @@ function onCardClick(index) {
 
     for (let i = 0; i < stack.length; i++) {
 
-      if (i !== 0) {
+        if (i !== 0) {
             stackHtml += ", ";
         }
         stackHtml += `${stack[i]}`;
