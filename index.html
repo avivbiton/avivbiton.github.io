@@ -17,7 +17,22 @@
 	<link rel="stylesheet" type="text/css" href="css/shapes.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="350">
+
+	<nav anim="slideInDown delay-1s" animateOn="#skills" id="navbar" class="navbar fixed-top navbar-dark bg-dark animated">
+		<ul class="navbar-nav flex-row ml-auto">
+			<li class="nav-item">
+				<a href="#skills" class="nav-link">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a href="#projects" class="nav-link">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a href="#contact" class="nav-link">Contact</a>
+			</li>
+		</ul>
+	</nav>
+
 
 	<!-- Landing -->
 	<section class="cover-screen shadow" id="landing">
@@ -164,9 +179,6 @@
 			</div>
 		</div>
 	</section>
-
-
-
 
 
 	<!-- Projects Modal -->

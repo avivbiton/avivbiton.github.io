@@ -1,4 +1,4 @@
-$("#landing a").on("click", function (event) {
+$("a").on("click", function (event) {
     if (this.hash !== "") {
         event.preventDefault();
         const hash = this.hash;
