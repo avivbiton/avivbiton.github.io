@@ -13,17 +13,6 @@
 		"text": "User Control Panel for a multiplayer game, where the players can login, register, view and manage their characters. Full-stack developed including email confirmations, security check and more. (Source Code is private)",
 		"siteUrl": "http://ucp.ls-v.com",
 		"sourceUrl": "#"
-	},	
-	{
-		"name": "Randome",
-		"header": "Fullstack firebase website",
-		"badges": [
-			"MERN",
-			"Firebase Auth"
-		],
-		"text": "Fullstack website with firebase authentication. Create, share, view and browse a large collection of randomizers!",
-		"siteUrl": "https://randome-site.herokuapp.com/",
-		"sourceUrl": "https://github.com/avivbiton/Randome"
 	},
 	{
 		"name": "Randome",
