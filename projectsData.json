@@ -1,14 +1,16 @@
 [
 	{
 		"name": "User Control Panel (LS-V)",
-		"header": "Control panel for a multiplayer game.",
-		"badges": [
+		"img": "images/ucp.jpg",
+		"stack": [
 			"React",
+			"Redux",
+			"Bootstrap",
 			"NodeJs",
 			"MySql",
-			"Production-ready"
+			"SignalR"
 		],
-		"text": "UCP that let's you, manage your characters for a GTA-V mutliplayer game. Register / Login, email confirmations , update information, view your account activity, and more. Contact me for source code.",
+		"text": "User Control Panel for a multiplayer game, where the players can login, register, view and manage their characters. Full-stack developed including email confirmations, security check and more. (Source Code is private)",
 		"siteUrl": "http://ucp.ls-v.com",
 		"sourceUrl": "#"
 	},	
@@ -24,40 +26,58 @@
 		"sourceUrl": "https://github.com/avivbiton/Randome"
 	},
 	{
-		"name": "Family Overseer",
-		"header": "Task Management Website",
-		"badges": [
-			"MERN",
-			"MongoDb",
-			"Fullstack"
+		"name": "Randome",
+		"img": "images/randome.jpg",
+		"stack": [
+			"React",
+			"Bootstrap",
+			"Express.js",
+			"MongoDB",
+			"Node.js",
+			"Firebase"
 		],
-		"text": "Register and Login, create groups and invite your family members, maintain a list of tasks, allowing members to create, edit, complete and delete tasks as they desire.",
+		"text": "Stores a collection of randomizers and allow users to create, view, like and favorite different randomizers made by the community.",
+		"siteUrl": "https://randome-site.herokuapp.com/",
+		"sourceUrl": "https://github.com/avivbiton/Randome"
+	},
+	{
+		"name": "Web Developer Portfolio",
+		"img": "images/portfolio.jpg",
+		"stack": [
+			"HTML",
+			"CSS",
+			"Bootstrap",
+			"Vanila Javascript"
+		],
+		"text": "A static web page to showcase my skills and projects.",
+		"siteUrl": "https://avivbiton.website/",
+		"sourceUrl": "https://github.com/avivbiton/avivbiton.github.io"
+	},
+	{
+		"name": "Family Overseer",
+		"img": "images/family.jpg",
+		"stack": [
+			"React",
+			"Redux",
+			"Bootstrap",
+			"Node.js + Express.js"
+		],
+		"text": "Task management website to help families assign and keep track of family-related tasks.",
 		"siteUrl": "https://family-overseer.herokuapp.com/",
 		"sourceUrl": "https://github.com/avivbiton/FamilyOverseer"
 	},
 	{
-		"name": "Portfolio",
-		"header": "Personal Developer Portfolio",
-		"badges": [
-			"Frontend",
-			"Bootstrap",
-			"Responsive"
-		],
-		"text": "A static, single page, website to showcase my skills and projects. Using Bootstrap 4 for design, jQuery and clipboard.js",
-		"siteUrl": "#",
-		"sourceUrl": "https://github.com/avivbiton/avivbiton.github.io"
-	},
-	{
-		"name": "BlizzardApiReader",
-		"header": "Open Source .Net Core API Client",
-		"badges": [
+		"name": "Blizzard Api Reader",
+		"img": "images/apireader.jpg",
+		"stack": [
 			"Open-Source",
 			".Net Core",
 			"C#",
-			"API Client"
+			"API Client",
+			"Dependency Injection"
 		],
-		"text": "An Open source github project. serve as an interface for Blizzard Public games API. OAuth implementation, Fluent API, and Dependency Injection to Improve TDD aspects.",
-		"siteUrl": "#",
+		"text": "An Open Source client for the Blizzard public Web API. (Developed in C#)",
+		"siteUrl": "https://github.com/avivbiton/BlizzardApiReader",
 		"sourceUrl": "https://github.com/avivbiton/BlizzardApiReader"
 	}
 ]
