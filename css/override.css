@@ -11,12 +11,13 @@
     color: white;
     transition-property: all;
     transition-duration: 0.2s;
+    margin-top: 5rem;
 }
 
 .btn-primary:hover {
     border-color: white;
     color: white;
-    background-color: #0a0c12;
+    background-color: transparent;
     transform: scale(1.2);
 }
 

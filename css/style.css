@@ -36,7 +36,8 @@ h1 {
 }
 
 .highlight {
-    font-size: 150%;
+    font-size: 125%;
+    font-weight: 500;
     color: #cc0000;
 }
 
@@ -72,6 +73,7 @@ a:focus {
 
 .hide-anim {
     visibility: hidden;
+    display: none;
 }
 
 #scrolldown {
