@@ -10,7 +10,7 @@
 			"MySql",
 			"SignalR"
 		],
-		"text": "User Control Panel for a multiplayer game, where the players can login, register, view and manage their characters. Full-stack developed including email confirmations, security check and more. (Source Code is private)",
+		"text": "User Control Panel for a multiplayer game, where the players can login, register, view and manage their characters. Full-stack developed including email confirmations, security check and more. (Source Code is private)<br /><b>Demo Account:</b><br />user: demo<br />password: 123456",
 		"siteUrl": "http://ucp.ls-v.com",
 		"sourceUrl": "#"
 	},
