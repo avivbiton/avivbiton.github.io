@@ -9,9 +9,7 @@ $(document).ready(function () {
             loadedProjects.push(project);
             html += parseHTML(project, index);
         });
-
-        $("#projectsList").html(html);
-
+        document.getElementById("projectsList").innerHTML = html;
     });
 
 });
