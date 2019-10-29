@@ -1,45 +1,46 @@
-$.fn.isInViewport = function () {
-    var elementTop = $(this).offset().top;
-    var elementBottom = elementTop + $(this).outerHeight();
-    var viewportTop = $(window).scrollTop();
-    var viewportBottom = viewportTop + $(window).height();
-    return elementBottom > viewportTop && elementTop < viewportBottom;
-};
+
+function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+    const windowWidth = (window.innerWidth || document.documentElement.clientWidth);
+
+    const vertInView = (rect.top <= windowHeight) && ((rect.top + rect.height) >= 0);
+    const horInView = (rect.left <= windowWidth) && ((rect.left + rect.width) >= 0);
+
+    return (vertInView && horInView);
+}
 
 
 $(document).ready(function () {
 
-
-    $(window).scroll(animate);
-
-    $(".animated").each(function () {
+    $("[anim]").each(function () {
         const element = $(this);
         if (element.hasClass("hide-anim") === false) {
             element.addClass("hide-anim");
         }
     });
 
+    $(window).scroll(animate);
 
     animate();
 
     function animate() {
-        $(".animated").each(function () {
-            const element = $(this);
-            const animateOn = element.attr("animateOn");
+        document.querySelectorAll("[anim]").forEach(function (element) {
+            const animateOn = element.getAttribute("animateOn");
             if (animateOn) {
-                if ($(animateOn).isInViewport()) {
+                if (isElementInViewport(document.querySelector(animateOn))) {
                     addAnim();
                 }
             }
-            else if (element.isInViewport() === true) {
+            else if (isElementInViewport(element)) {
                 addAnim();
             }
 
             function addAnim() {
-                const anim = element.attr("anim");
-                if (anim && element.hasClass(anim) === false) {
-                    element.addClass(anim);
-                    element.removeClass("hide-anim");
+                const anim = element.getAttribute("anim");
+                if (anim && element.classList.contains(anim) === false) {
+                    element.classList.add(...anim.split(" "));
+                    element.classList.remove("hide-anim");
                 }
             }
 
