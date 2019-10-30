@@ -1,7 +1,3 @@
-* {
-    backface-visibility: hidden;
-}
-
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -68,17 +64,23 @@ a:focus {
 
 .badage {
     margin-top: 2.5rem;
-    width: 128px;
-    height: 128px;
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
     animation-delay: 1.3s;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
+@media (min-width: 768px) {
+    .badage {
+        width: 128px;
+        height: 128px;
+    }
+}
+
 .hide-anim {
     visibility: hidden;
     overflow: hidden;
-    display: none;
 }
 
 #scrolldown {
@@ -139,6 +141,7 @@ hr {
     #cardModal h1 {
         font-size: 1.5rem;
     }
+
     #cardModal .lead {
         font-size: 1rem;
     }
