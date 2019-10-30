@@ -86,6 +86,7 @@ a:focus {
 
 .hide-anim {
     opacity: 0;
+    visibility: hidden;
 }
 
 #scrolldown {
@@ -182,6 +183,7 @@ hr {
         z-index: 1030;
     }
 }
+
 
 @keyframes slideNavbar {
     from {
