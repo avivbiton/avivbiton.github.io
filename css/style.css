@@ -79,8 +79,7 @@ a:focus {
 }
 
 .hide-anim {
-    visibility: hidden;
-    overflow: hidden;
+    opacity: 0;
 }
 
 #scrolldown {
@@ -149,4 +148,27 @@ hr {
 
 .nav-item {
     padding: 0px 0.5rem;
+}
+
+@keyframes slideNavbar {
+    from {
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1030;
+    }
+}
+
+.slideNavbar {
+    animation-name: slideNavbar;
 }
