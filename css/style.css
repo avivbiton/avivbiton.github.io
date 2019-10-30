@@ -11,6 +11,8 @@ body {
     background-image: url("/images/landing.jpg");
     background-size: cover;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -21,6 +23,8 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#2c2827));
+    background-image: -o-linear-gradient(top left, #000000, #2c2827);
     background-image: linear-gradient(to bottom right, #000000, #2c2827);
     opacity: .6;
 }
@@ -67,7 +71,9 @@ a:focus {
     width: 64px;
     height: 64px;
     border-radius: 50%;
+    -webkit-animation-delay: 1.3s;
     animation-delay: 1.3s;
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
@@ -122,11 +128,17 @@ hr {
 
 #contact ion-icon {
     font-size: 128px;
+    -webkit-transition: all;
+    -o-transition: all;
     transition: all;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 
 #contact ion-icon:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
@@ -150,13 +162,36 @@ hr {
     padding: 0px 0.5rem;
 }
 
-@keyframes slideNavbar {
+@-webkit-keyframes slideNavbar {
     from {
+        -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
         visibility: visible;
     }
 
     to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1030;
+    }
+}
+
+@keyframes slideNavbar {
+    from {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
 
@@ -170,5 +205,6 @@ hr {
 }
 
 .slideNavbar {
+    -webkit-animation-name: slideNavbar;
     animation-name: slideNavbar;
 }
