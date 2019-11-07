@@ -8,13 +8,14 @@ body {
 }
 
 #landing {
-    background-image: url("/images/landing.jpg");
+    background-image: url("/images/sean-lim-NPlv2pkYoUA-unsplash.jpg");
     background-position: bottom;
     background-size: cover;
     color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    z-index: 1;
 }
 
 #landing:before {
