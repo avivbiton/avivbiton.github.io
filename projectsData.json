@@ -10,9 +10,9 @@
 			"MySql",
 			"SignalR"
 		],
-		"text": "User Control Panel for a multiplayer game, where the players can login, register, view and manage their characters. Full-stack developed including email confirmations, security check and more. (Source Code is private)<br /><b>Demo Account:</b><br />user: demo<br />password: 123456",
+		"text": "User Control Panel for a multiplayer game, where the players can login, register, view and manage their characters. Full-stack developed including email confirmations, security check and more. (Source Code is private)<br />Project website is currently not available",
 		"siteUrl": "http://ucp.ls-v.com",
-		"sourceUrl": "#"
+		"sourceUrl": "http://ucp.ls-v.com"
 	},
 	{
 		"name": "Randome",
@@ -25,7 +25,7 @@
 			"Node.js",
 			"Firebase"
 		],
-		"text": "Stores a collection of randomizers and allow users to create, view, like and favorite different randomizers made by the community.",
+		"text": "Stores a collection of randomizers and allow users to create, view, like and favorite different randomizers made by the community. <br /> Randomizers are users created, they have set of rules and values and they generate random things based on that.",
 		"siteUrl": "https://randome-site.herokuapp.com/",
 		"sourceUrl": "https://github.com/avivbiton/Randome"
 	},
